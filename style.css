@@ -1,1 +1,184 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*  normalize end */
+
+
+/*  header begins */
+
+header {
+    height: 100vh;
+    background: url(./images/header-background.svg) center/cover no-repeat fixed ;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0 64px 0;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-links div a {
+    padding: 15px 15px 12px 15px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.header-links div {
+    padding: 15px 32px;
+}
+
+.center-link {
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+
+}
+
+.hero-title p {
+color: #FFF;
+font-size: 22px;
+font-weight: 500;
+line-height: 140%; 
+letter-spacing: 2.2px;
+text-transform: uppercase;
+margin-bottom: 3px;
+} 
+
+.hero-title h1 {
+ color: #FFF;
+font-size: 99.17px;
+font-weight: 700;
+line-height: 100%; 
+text-transform: uppercase;
+margin-bottom: 45px;
+}
+
+.hero-title button {
+color: #FF4948;
+font-size: 22px;
+font-weight: 500;
+line-height: 140%; 
+padding: 15px 30px;
+border: none;
+cursor: pointer;
+background-color: #fff;
+border-radius: 62px;
+}
+
+.hero-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.hero-price span:first-of-type {
+ color: #FFF;
+font-size: 44px;
+font-weight: 700;
+line-height: 130%; 
+padding-right: 30px;
+border-right: 2px solid #fff;
+}
+
+.hero-price span:last-of-type {
+color: #FFF;
+font-size: 31px;
+font-weight: 500;
+line-height: 140%;
+text-decoration-line: line-through;
+opacity: 0.7;
+padding-left: 30px;
+}
+
+.bc-img-1 {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    opacity: 0.1;
+}
+
+.bc-img-2 {
+    position: absolute;
+    top: 574px;
+    left: 0;
+    opacity: 0.1;
+}
+
+.bc-img-3 {
+    position: absolute;
+    top: 331px;
+    left: 155px;
+    opacity: 0.1;
+}
+
+.bc-img-4 {
+    position: absolute;
+    top: 393px;
+    left: 720px;
+    opacity: 0.1;
+}
+
+.bc-img-5 {
+    position: absolute;
+    top: 168px;
+    left: 690px;
+    opacity: 0.1;
+}
+
+.bc-img-6 {
+    position: absolute;
+    top: 156px;
+    left: 206px;
+    opacity: 0.1;
+}
+
+.bc-img-7 {
+    position: absolute;
+    top: 103px;
+    left: 592px;
+    opacity: 0.1;
+}
+
+.bc-img-8 {
+    position: absolute;
+    top: 584px;
+    left: 155px;
+    opacity: 0.1;
+}
